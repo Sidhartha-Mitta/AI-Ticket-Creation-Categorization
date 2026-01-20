@@ -2,6 +2,8 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { toast } from 'react-toastify';
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+
 const useAuthStore = create(
   persist(
     (set, get) => ({
@@ -13,7 +15,7 @@ const useAuthStore = create(
       login: async (credentials) => {
         set({ error: null });
         try {
-          const response = await fetch('/api/auth/login', {
+          const response = await fetch(`${API_BASE_URL}/auth/login`, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -30,7 +32,7 @@ const useAuthStore = create(
 
           // Immediately fetch user profile after login
           console.log('Fetching user profile after login...');
-          const profileResponse = await fetch('/api/auth/profile', {
+          const profileResponse = await fetch(`${API_BASE_URL}/auth/profile`, {
             headers: {
               'Authorization': `Bearer ${data.access_token}`,
             },
@@ -62,7 +64,7 @@ const useAuthStore = create(
       signup: async (userData) => {
         set({ error: null });
         try {
-          const response = await fetch('/api/auth/signup', {
+          const response = await fetch(`${API_BASE_URL}/auth/signup`, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -78,7 +80,7 @@ const useAuthStore = create(
           const data = await response.json();
 
           // Immediately fetch user profile after signup
-          const profileResponse = await fetch('/api/auth/profile', {
+          const profileResponse = await fetch(`${API_BASE_URL}/auth/profile`, {
             headers: {
               'Authorization': `Bearer ${data.access_token}`,
             },
@@ -117,7 +119,7 @@ const useAuthStore = create(
         if (!token) return;
 
         try {
-          const response = await fetch('/api/auth/profile', {
+          const response = await fetch(`${API_BASE_URL}/auth/profile`, {
             headers: {
               'Authorization': `Bearer ${token}`,
             },

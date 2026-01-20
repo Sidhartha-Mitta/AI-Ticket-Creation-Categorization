@@ -2,6 +2,8 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import useAuthStore from './authStore';
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+
 const useTicketsStore = create(
   persist(
     (set, get) => ({
@@ -15,7 +17,7 @@ const useTicketsStore = create(
 
         set({ loading: true, error: null });
         try {
-          const response = await fetch('/api/tickets/', {
+          const response = await fetch(`${API_BASE_URL}/tickets/`, {
             headers: {
               'Authorization': `Bearer ${token}`,
             },
@@ -40,7 +42,7 @@ const useTicketsStore = create(
 
         set({ loading: true, error: null });
         try {
-          const response = await fetch('/api/admin/tickets', {
+          const response = await fetch(`${API_BASE_URL}/admin/tickets`, {
             headers: {
               'Authorization': `Bearer ${token}`,
             },
@@ -65,7 +67,7 @@ const useTicketsStore = create(
 
         set({ loading: true, error: null });
         try {
-          const response = await fetch('/api/support/tickets', {
+          const response = await fetch(`${API_BASE_URL}/support/tickets`, {
             headers: {
               'Authorization': `Bearer ${token}`,
             },
@@ -90,7 +92,7 @@ const useTicketsStore = create(
 
         set({ loading: true, error: null });
         try {
-          const response = await fetch('/api/tickets/', {
+          const response = await fetch(`${API_BASE_URL}/tickets/`, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -121,7 +123,7 @@ const useTicketsStore = create(
 
         set({ loading: true, error: null });
         try {
-          const response = await fetch(`/api/tickets/${ticketId}/cancel`, {
+          const response = await fetch(`${API_BASE_URL}/tickets/${ticketId}/cancel`, {
             method: 'PUT',
             headers: {
               'Authorization': `Bearer ${token}`,
