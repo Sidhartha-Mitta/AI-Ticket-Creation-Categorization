@@ -33,7 +33,9 @@ function App() {
       toast.success('Ticket created successfully!')
     } catch (err) {
       console.error('Error:', err)
-      toast.error('Failed to create ticket. Please try again.')
+      // Handle specific error messages from backend
+      const errorMessage = err.detail || err.message || 'Failed to create ticket. Please try again.'
+      toast.error(errorMessage)
     }
   }
 

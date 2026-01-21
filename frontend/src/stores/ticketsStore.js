@@ -92,13 +92,39 @@ const useTicketsStore = create(
 
         set({ loading: true, error: null });
         try {
+          // First, call ML API for categorization
+          const mlResponse = await fetch('https://ai-ticket-creation-ml-model.onrender.com/generate-ticket', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              title: ticketData.title,
+              description: ticketData.description
+            }),
+          });
+
+          if (!mlResponse.ok) {
+            const errorData = await mlResponse.json();
+            const error = new Error(errorData.detail || 'Failed to process ticket');
+            error.detail = errorData.detail;
+            throw error;
+          }
+
+          const mlData = await mlResponse.json();
+
+          // Now create ticket with ML data
           const response = await fetch(`${API_BASE_URL}/api/tickets/`, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
               'Authorization': `Bearer ${token}`,
             },
-            body: JSON.stringify(ticketData),
+            body: JSON.stringify({
+              ...ticketData,
+              category: mlData.category,
+              priority: mlData.priority
+            }),
           });
 
           if (!response.ok) {

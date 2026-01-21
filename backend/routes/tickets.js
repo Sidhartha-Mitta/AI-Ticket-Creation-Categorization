@@ -16,18 +16,14 @@ router.post('/', auth, [
       return res.status(400).json({ errors: errors.array() });
     }
 
-    const { title, description } = req.body;
-
-    // Simple category and priority assignment (can be enhanced with ML)
-    const category = 'Software'; // Valid enum value
-    const priority = 'Medium'; // Valid enum value
+    const { title, description, category, priority } = req.body;
 
     const ticket = new Ticket({
       ticketId: 'TICK-' + Date.now(),
       title,
       description,
-      category,
-      priority,
+      category: category || 'Software',
+      priority: priority || 'Medium',
       owner: req.user._id
     });
 
