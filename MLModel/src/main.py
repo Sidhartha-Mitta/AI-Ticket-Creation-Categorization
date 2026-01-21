@@ -5,7 +5,7 @@ import re
 import traceback
 import logging
 
-from .predict import predict_ticket_with_confidence
+from predict import predict_ticket_with_confidence
 
 # ---------------- APP SETUP ----------------
 app = FastAPI(title="AI Ticket Generator")
