@@ -1,14 +1,24 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import uuid
 import re
 import traceback
 import logging
 
-from predict import predict_ticket_with_confidence
+from .predict import predict_ticket_with_confidence
 
 # ---------------- APP SETUP ----------------
 app = FastAPI(title="AI Ticket Generator")
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allow all origins for development
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 MIN_CHARS = 15
 MAX_CHARS = 1000
