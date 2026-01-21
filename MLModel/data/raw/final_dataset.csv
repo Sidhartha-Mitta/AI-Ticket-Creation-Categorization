@@ -1,0 +1,1001 @@
+text,category,priority
+My computer won't start up.,hardware_issue,low
+Search function not working.,software_bug,medium
+The application crashes when I open it.,software_bug,medium
+User profile corrupted.,access_issue,critical
+Error message: 'File not found'.,software_bug,low
+External hard drive not detected.,hardware_issue,low
+Set up conference room projector.,service_request,medium
+Monitor is displaying distorted colors.,hardware_issue,high
+Export function broken.,software_bug,medium
+Please install antivirus software.,service_request,low
+Router needs rebooting.,network_issue,medium
+Two-factor authentication failing.,access_issue,medium
+Add user to distribution list.,service_request,medium
+Permissions not set correctly.,access_issue,medium
+Printer is jammed.,hardware_issue,medium
+CD/DVD drive not reading discs.,hardware_issue,high
+Plugin not loading.,software_bug,low
+I can't log into my account.,access_issue,medium
+Speakers have no sound.,hardware_issue,high
+Access denied to shared folder.,access_issue,high
+Login screen loops endlessly.,software_bug,medium
+External hard drive not detected.,hardware_issue,high
+Monitor is displaying distorted colors.,hardware_issue,medium
+The application crashes when I open it.,software_bug,medium
+Video player buffering issues.,software_bug,high
+Remote desktop connection refused.,access_issue,critical
+Mouse cursor is frozen.,hardware_issue,medium
+Monitor is displaying distorted colors.,hardware_issue,high
+Laptop battery not charging.,hardware_issue,high
+My computer won't start up.,hardware_issue,high
+Network cable unplugged.,network_issue,high
+Set up conference room projector.,service_request,low
+Wireless signal weak.,network_issue,critical
+Email client not syncing.,software_bug,critical
+Export function broken.,software_bug,low
+Video conferencing keeps dropping.,network_issue,high
+Wireless signal weak.,network_issue,high
+Report generation is incorrect.,software_bug,high
+External hard drive not detected.,hardware_issue,medium
+Network cable unplugged.,network_issue,high
+Hard drive making strange noises.,hardware_issue,high
+Database connection error.,software_bug,medium
+Wireless signal weak.,network_issue,high
+USB ports not working.,hardware_issue,high
+CD/DVD drive not reading discs.,hardware_issue,high
+The application crashes when I open it.,software_bug,high
+Email client not syncing.,software_bug,low
+IP address conflict.,network_issue,medium
+Login screen loops endlessly.,software_bug,medium
+CD/DVD drive not reading discs.,hardware_issue,high
+Incorrect calculations in spreadsheet.,software_bug,medium
+My computer won't start up.,hardware_issue,high
+SSO login issues.,access_issue,high
+The keyboard keys are sticking.,hardware_issue,high
+Hard drive making strange noises.,hardware_issue,high
+Internet connection is very slow.,network_issue,critical
+Biometric login not recognizing.,access_issue,medium
+Data not saving properly.,software_bug,medium
+Group policy not applying.,access_issue,low
+Data not saving properly.,software_bug,medium
+Error message: 'File not found'.,software_bug,medium
+UI elements not responding.,software_bug,medium
+Wireless signal weak.,network_issue,critical
+Export function broken.,software_bug,high
+Error message: 'File not found'.,software_bug,low
+Power supply fan is loud.,hardware_issue,high
+Speakers have no sound.,hardware_issue,high
+Add printer to network.,service_request,high
+UI elements not responding.,software_bug,medium
+Add user to distribution list.,service_request,low
+VPN not working.,network_issue,high
+Video player buffering issues.,software_bug,medium
+Printer is jammed.,hardware_issue,medium
+Biometric login not recognizing.,access_issue,critical
+VPN access blocked.,access_issue,critical
+Access denied to shared folder.,access_issue,low
+Please install antivirus software.,service_request,medium
+Permissions not set correctly.,access_issue,high
+Plugin not loading.,software_bug,high
+Please install antivirus software.,service_request,low
+Incorrect calculations in spreadsheet.,software_bug,critical
+Database connection error.,software_bug,low
+Plugin not loading.,software_bug,medium
+Bluetooth device not pairing.,hardware_issue,low
+Application freezing randomly.,software_bug,medium
+USB ports not working.,hardware_issue,high
+External hard drive not detected.,hardware_issue,critical
+Please install antivirus software.,service_request,low
+Network cable unplugged.,network_issue,critical
+My computer won't start up.,hardware_issue,high
+Network printer not accessible.,network_issue,high
+Power supply fan is loud.,hardware_issue,medium
+Login screen loops endlessly.,software_bug,medium
+Data not saving properly.,software_bug,medium
+Application freezing randomly.,software_bug,medium
+Internet connection is very slow.,network_issue,high
+Video player buffering issues.,software_bug,low
+Internet connection is very slow.,network_issue,low
+Database connection error.,software_bug,critical
+Speakers have no sound.,hardware_issue,critical
+LAN port not functioning.,network_issue,low
+Application freezing randomly.,software_bug,low
+Login screen loops endlessly.,software_bug,medium
+Incorrect calculations in spreadsheet.,software_bug,high
+Video player buffering issues.,software_bug,medium
+Shared drive permissions issue.,access_issue,low
+Mouse cursor is frozen.,hardware_issue,medium
+File server is unreachable.,network_issue,high
+Login screen loops endlessly.,software_bug,medium
+Please install antivirus software.,service_request,low
+Touchpad not working on laptop.,hardware_issue,low
+My computer won't start up.,hardware_issue,high
+Application freezing randomly.,software_bug,low
+The application crashes when I open it.,software_bug,medium
+Search function not working.,software_bug,low
+Wireless signal weak.,network_issue,high
+Password reset not working.,access_issue,critical
+Data not saving properly.,software_bug,medium
+Login screen loops endlessly.,software_bug,medium
+Database connection error.,software_bug,high
+Install new keyboard.,service_request,critical
+Login screen loops endlessly.,software_bug,low
+Proxy settings incorrect.,network_issue,medium
+Data not saving properly.,software_bug,high
+Shared drive permissions issue.,access_issue,medium
+Configure email signature.,service_request,low
+Mouse cursor is frozen.,hardware_issue,medium
+Password reset not working.,access_issue,low
+Monitor is displaying distorted colors.,hardware_issue,high
+Plugin not loading.,software_bug,medium
+Video player buffering issues.,software_bug,medium
+Proxy settings incorrect.,network_issue,critical
+Search function not working.,software_bug,medium
+Set up email forwarding.,service_request,low
+USB ports not working.,hardware_issue,high
+Access to application denied.,access_issue,high
+My computer won't start up.,hardware_issue,medium
+Export function broken.,software_bug,low
+Touchpad not working on laptop.,hardware_issue,high
+Report generation is incorrect.,software_bug,medium
+UI elements not responding.,software_bug,medium
+External hard drive not detected.,hardware_issue,low
+Application freezing randomly.,software_bug,high
+Network cable unplugged.,network_issue,medium
+CD/DVD drive not reading discs.,hardware_issue,low
+Laptop battery not charging.,hardware_issue,medium
+IP address conflict.,network_issue,critical
+UI elements not responding.,software_bug,medium
+Report generation is incorrect.,software_bug,high
+User profile corrupted.,access_issue,medium
+LAN port not functioning.,network_issue,high
+USB ports not working.,hardware_issue,low
+Proxy settings incorrect.,network_issue,high
+Please install antivirus software.,service_request,low
+Export function broken.,software_bug,medium
+UI elements not responding.,software_bug,low
+Network printer not accessible.,network_issue,high
+Database connection error.,software_bug,high
+Printer is jammed.,hardware_issue,high
+Application freezing randomly.,software_bug,high
+Speakers have no sound.,hardware_issue,high
+CD/DVD drive not reading discs.,hardware_issue,high
+Bluetooth device not pairing.,hardware_issue,medium
+My computer won't start up.,hardware_issue,high
+Data not saving properly.,software_bug,low
+Plugin not loading.,software_bug,low
+USB ports not working.,hardware_issue,medium
+Internet connection is very slow.,network_issue,critical
+Data not saving properly.,software_bug,low
+Group policy not applying.,access_issue,medium
+Install operating system update.,service_request,high
+UI elements not responding.,software_bug,low
+Plugin not loading.,software_bug,high
+Incorrect calculations in spreadsheet.,software_bug,high
+Printer is jammed.,hardware_issue,medium
+The keyboard keys are sticking.,hardware_issue,high
+Password reset not working.,access_issue,medium
+Error message: 'File not found'.,software_bug,high
+Incorrect calculations in spreadsheet.,software_bug,medium
+External hard drive not detected.,hardware_issue,high
+DNS resolution failing.,network_issue,medium
+Network cable unplugged.,network_issue,critical
+Power supply fan is loud.,hardware_issue,high
+Report generation is incorrect.,software_bug,medium
+Application freezing randomly.,software_bug,medium
+Laptop battery not charging.,hardware_issue,critical
+Export function broken.,software_bug,medium
+Monitor is displaying distorted colors.,hardware_issue,low
+Forgot password.,access_issue,critical
+Export function broken.,software_bug,medium
+Bluetooth device not pairing.,hardware_issue,high
+Can't connect to WiFi.,network_issue,critical
+File server is unreachable.,network_issue,high
+SSO login issues.,access_issue,medium
+The keyboard keys are sticking.,hardware_issue,low
+The application crashes when I open it.,software_bug,low
+Data not saving properly.,software_bug,medium
+Email client not syncing.,software_bug,high
+Software update failed.,software_bug,medium
+Data not saving properly.,software_bug,low
+Application freezing randomly.,software_bug,low
+Plugin not loading.,software_bug,medium
+Video player buffering issues.,software_bug,medium
+Set up conference room projector.,service_request,low
+Plugin not loading.,software_bug,medium
+CD/DVD drive not reading discs.,hardware_issue,medium
+Power supply fan is loud.,hardware_issue,critical
+USB ports not working.,hardware_issue,critical
+Monitor is displaying distorted colors.,hardware_issue,medium
+Speakers have no sound.,hardware_issue,medium
+The application crashes when I open it.,software_bug,low
+Data not saving properly.,software_bug,high
+Internet connection is very slow.,network_issue,critical
+Data not saving properly.,software_bug,high
+UI elements not responding.,software_bug,low
+Plugin not loading.,software_bug,low
+Email client not syncing.,software_bug,low
+Plugin not loading.,software_bug,high
+Email client not syncing.,software_bug,critical
+I need a new monitor.,service_request,high
+Error message: 'File not found'.,software_bug,medium
+Can't connect to WiFi.,network_issue,critical
+Permissions not set correctly.,access_issue,critical
+Application freezing randomly.,software_bug,medium
+Touchpad not working on laptop.,hardware_issue,high
+Search function not working.,software_bug,medium
+Error message: 'File not found'.,software_bug,medium
+My computer won't start up.,hardware_issue,high
+Biometric login not recognizing.,access_issue,medium
+USB ports not working.,hardware_issue,low
+Mouse cursor is frozen.,hardware_issue,medium
+Incorrect calculations in spreadsheet.,software_bug,medium
+Set up new workstation.,service_request,low
+UI elements not responding.,software_bug,low
+My computer won't start up.,hardware_issue,medium
+External hard drive not detected.,hardware_issue,high
+Can't connect to WiFi.,network_issue,high
+Video player buffering issues.,software_bug,medium
+Email server is down.,network_issue,high
+Configure email signature.,service_request,low
+Login screen loops endlessly.,software_bug,high
+Firewall blocking legitimate traffic.,network_issue,low
+Access denied to shared folder.,access_issue,low
+Network cable unplugged.,network_issue,high
+Database connection error.,software_bug,medium
+Monitor is displaying distorted colors.,hardware_issue,high
+Request for software license.,service_request,low
+Search function not working.,software_bug,low
+Request for software license.,service_request,medium
+External hard drive not detected.,hardware_issue,medium
+File server is unreachable.,network_issue,high
+Graphics card overheating.,hardware_issue,high
+File server is unreachable.,network_issue,high
+Proxy settings incorrect.,network_issue,high
+Laptop battery not charging.,hardware_issue,high
+Two-factor authentication failing.,access_issue,low
+Bluetooth device not pairing.,hardware_issue,high
+Video player buffering issues.,software_bug,low
+My computer won't start up.,hardware_issue,medium
+Video player buffering issues.,software_bug,low
+Wireless signal weak.,network_issue,high
+VPN not working.,network_issue,medium
+My computer won't start up.,hardware_issue,low
+Configure backup for my files.,service_request,low
+Configure email signature.,service_request,medium
+Search function not working.,software_bug,low
+File server is unreachable.,network_issue,critical
+Speakers have no sound.,hardware_issue,critical
+Software update failed.,software_bug,medium
+Hard drive making strange noises.,hardware_issue,medium
+CD/DVD drive not reading discs.,hardware_issue,high
+Install operating system update.,service_request,medium
+Password reset not working.,access_issue,medium
+DNS resolution failing.,network_issue,low
+Search function not working.,software_bug,medium
+Internet connection is very slow.,network_issue,high
+Set up email forwarding.,service_request,low
+Network printer not accessible.,network_issue,medium
+File server is unreachable.,network_issue,critical
+Search function not working.,software_bug,low
+Search function not working.,software_bug,low
+Report generation is incorrect.,software_bug,medium
+Proxy settings incorrect.,network_issue,critical
+Set up conference room projector.,service_request,low
+VPN access blocked.,access_issue,medium
+Permissions not set correctly.,access_issue,medium
+Login screen loops endlessly.,software_bug,low
+File server is unreachable.,network_issue,medium
+Search function not working.,software_bug,low
+Incorrect calculations in spreadsheet.,software_bug,low
+Graphics card overheating.,hardware_issue,high
+Wireless signal weak.,network_issue,high
+UI elements not responding.,software_bug,medium
+Bluetooth device not pairing.,hardware_issue,high
+Firewall blocking legitimate traffic.,network_issue,high
+My computer won't start up.,hardware_issue,high
+Add printer to network.,service_request,low
+Network cable unplugged.,network_issue,high
+Software update failed.,software_bug,low
+Speakers have no sound.,hardware_issue,high
+Application freezing randomly.,software_bug,medium
+USB ports not working.,hardware_issue,critical
+Search function not working.,software_bug,medium
+Error message: 'File not found'.,software_bug,medium
+Video player buffering issues.,software_bug,low
+Laptop battery not charging.,hardware_issue,high
+Email server is down.,network_issue,high
+Software update failed.,software_bug,low
+Data not saving properly.,software_bug,medium
+Monitor is displaying distorted colors.,hardware_issue,medium
+CD/DVD drive not reading discs.,hardware_issue,low
+Graphics card overheating.,hardware_issue,high
+USB ports not working.,hardware_issue,medium
+Access denied to shared folder.,access_issue,high
+Export function broken.,software_bug,medium
+UI elements not responding.,software_bug,medium
+Error message: 'File not found'.,software_bug,medium
+Application freezing randomly.,software_bug,low
+SSO login issues.,access_issue,medium
+Plugin not loading.,software_bug,high
+Wireless signal weak.,network_issue,medium
+Configure email signature.,service_request,low
+User profile corrupted.,access_issue,high
+Software update failed.,software_bug,low
+Search function not working.,software_bug,medium
+Video player buffering issues.,software_bug,medium
+Hard drive making strange noises.,hardware_issue,medium
+My computer won't start up.,hardware_issue,critical
+Video player buffering issues.,software_bug,medium
+Report generation is incorrect.,software_bug,medium
+User profile corrupted.,access_issue,low
+Add user to distribution list.,service_request,medium
+My computer won't start up.,hardware_issue,medium
+Set up new workstation.,service_request,medium
+Export function broken.,software_bug,medium
+Configure backup for my files.,service_request,low
+The application crashes when I open it.,software_bug,high
+Search function not working.,software_bug,medium
+Please install antivirus software.,service_request,low
+Touchpad not working on laptop.,hardware_issue,medium
+Two-factor authentication failing.,access_issue,high
+My computer won't start up.,hardware_issue,low
+Email client not syncing.,software_bug,medium
+Add printer to network.,service_request,medium
+Incorrect calculations in spreadsheet.,software_bug,medium
+Speakers have no sound.,hardware_issue,high
+Database connection error.,software_bug,medium
+Report generation is incorrect.,software_bug,medium
+Error message: 'File not found'.,software_bug,low
+Data not saving properly.,software_bug,medium
+Database connection error.,software_bug,high
+External hard drive not detected.,hardware_issue,high
+Password reset not working.,access_issue,high
+Email server is down.,network_issue,high
+Graphics card overheating.,hardware_issue,medium
+The application crashes when I open it.,software_bug,medium
+Data not saving properly.,software_bug,medium
+Error message: 'File not found'.,software_bug,low
+I can't log into my account.,access_issue,high
+Create new email account.,service_request,low
+UI elements not responding.,software_bug,high
+Login screen loops endlessly.,software_bug,medium
+Login screen loops endlessly.,software_bug,high
+Plugin not loading.,software_bug,medium
+UI elements not responding.,software_bug,high
+Application freezing randomly.,software_bug,low
+Internet connection is very slow.,network_issue,high
+Set up email forwarding.,service_request,low
+Plugin not loading.,software_bug,medium
+Speakers have no sound.,hardware_issue,medium
+Search function not working.,software_bug,medium
+The keyboard keys are sticking.,hardware_issue,high
+Database connection error.,software_bug,medium
+Video player buffering issues.,software_bug,medium
+Add printer to network.,service_request,medium
+Login screen loops endlessly.,software_bug,critical
+Hard drive making strange noises.,hardware_issue,medium
+Mouse cursor is frozen.,hardware_issue,medium
+Export function broken.,software_bug,low
+Touchpad not working on laptop.,hardware_issue,high
+Printer is jammed.,hardware_issue,medium
+Network cable unplugged.,network_issue,high
+Software update failed.,software_bug,low
+Permissions not set correctly.,access_issue,medium
+Database connection error.,software_bug,medium
+VPN access blocked.,access_issue,medium
+Report generation is incorrect.,software_bug,low
+Monitor is displaying distorted colors.,hardware_issue,high
+CD/DVD drive not reading discs.,hardware_issue,high
+UI elements not responding.,software_bug,medium
+The application crashes when I open it.,software_bug,low
+Configure email signature.,service_request,low
+Export function broken.,software_bug,low
+I need a new monitor.,service_request,low
+Application freezing randomly.,software_bug,critical
+Incorrect calculations in spreadsheet.,software_bug,medium
+Access to application denied.,access_issue,high
+Incorrect calculations in spreadsheet.,software_bug,low
+Email client not syncing.,software_bug,low
+Database connection error.,software_bug,low
+Internet connection is very slow.,network_issue,critical
+Graphics card overheating.,hardware_issue,high
+Mouse cursor is frozen.,hardware_issue,low
+Firewall blocking legitimate traffic.,network_issue,critical
+The application crashes when I open it.,software_bug,medium
+Error message: 'File not found'.,software_bug,low
+External hard drive not detected.,hardware_issue,medium
+UI elements not responding.,software_bug,high
+The application crashes when I open it.,software_bug,medium
+Graphics card overheating.,hardware_issue,medium
+File server is unreachable.,network_issue,critical
+Request for training on software.,service_request,low
+Software update failed.,software_bug,medium
+UI elements not responding.,software_bug,medium
+Internet connection is very slow.,network_issue,critical
+Laptop battery not charging.,hardware_issue,high
+Software update failed.,software_bug,medium
+Software update failed.,software_bug,medium
+Plugin not loading.,software_bug,low
+Search function not working.,software_bug,low
+Mouse cursor is frozen.,hardware_issue,critical
+Access denied to shared folder.,access_issue,critical
+USB ports not working.,hardware_issue,medium
+Group policy not applying.,access_issue,medium
+Software update failed.,software_bug,medium
+Two-factor authentication failing.,access_issue,medium
+The application crashes when I open it.,software_bug,medium
+Plugin not loading.,software_bug,medium
+Export function broken.,software_bug,medium
+Error message: 'File not found'.,software_bug,low
+CD/DVD drive not reading discs.,hardware_issue,medium
+Database connection error.,software_bug,medium
+Search function not working.,software_bug,low
+Email client not syncing.,software_bug,low
+Bluetooth device not pairing.,hardware_issue,medium
+USB ports not working.,hardware_issue,high
+Password reset not working.,access_issue,high
+Two-factor authentication failing.,access_issue,medium
+Graphics card overheating.,hardware_issue,high
+External hard drive not detected.,hardware_issue,low
+USB ports not working.,hardware_issue,medium
+Two-factor authentication failing.,access_issue,high
+Video conferencing keeps dropping.,network_issue,medium
+Incorrect calculations in spreadsheet.,software_bug,medium
+Network cable unplugged.,network_issue,medium
+Install new keyboard.,service_request,medium
+Error message: 'File not found'.,software_bug,medium
+Email server is down.,network_issue,critical
+Mouse cursor is frozen.,hardware_issue,medium
+Bluetooth device not pairing.,hardware_issue,high
+DNS resolution failing.,network_issue,high
+External hard drive not detected.,hardware_issue,medium
+Configure email signature.,service_request,low
+The application crashes when I open it.,software_bug,medium
+Touchpad not working on laptop.,hardware_issue,low
+Access to application denied.,access_issue,medium
+LAN port not functioning.,network_issue,critical
+Database connection error.,software_bug,medium
+Hard drive making strange noises.,hardware_issue,medium
+Plugin not loading.,software_bug,high
+Export function broken.,software_bug,medium
+External hard drive not detected.,hardware_issue,high
+Video player buffering issues.,software_bug,low
+Database connection error.,software_bug,medium
+Report generation is incorrect.,software_bug,medium
+Shared drive permissions issue.,access_issue,low
+Incorrect calculations in spreadsheet.,software_bug,low
+Proxy settings incorrect.,network_issue,medium
+Application freezing randomly.,software_bug,medium
+I can't log into my account.,access_issue,medium
+Email client not syncing.,software_bug,low
+Speakers have no sound.,hardware_issue,high
+Network printer not accessible.,network_issue,high
+IP address conflict.,network_issue,low
+LAN port not functioning.,network_issue,high
+Login screen loops endlessly.,software_bug,medium
+Group policy not applying.,access_issue,low
+Configure email signature.,service_request,medium
+Speakers have no sound.,hardware_issue,high
+Graphics card overheating.,hardware_issue,medium
+Incorrect calculations in spreadsheet.,software_bug,medium
+Application freezing randomly.,software_bug,medium
+Touchpad not working on laptop.,hardware_issue,low
+File server is unreachable.,network_issue,high
+Bluetooth device not pairing.,hardware_issue,medium
+Login screen loops endlessly.,software_bug,low
+The application crashes when I open it.,software_bug,medium
+The application crashes when I open it.,software_bug,medium
+IP address conflict.,network_issue,high
+IP address conflict.,network_issue,critical
+Internet connection is very slow.,network_issue,critical
+Create new email account.,service_request,low
+VPN access blocked.,access_issue,high
+CD/DVD drive not reading discs.,hardware_issue,medium
+Bluetooth device not pairing.,hardware_issue,medium
+DNS resolution failing.,network_issue,critical
+Touchpad not working on laptop.,hardware_issue,high
+Export function broken.,software_bug,medium
+Email client not syncing.,software_bug,medium
+Configure email signature.,service_request,low
+Biometric login not recognizing.,access_issue,medium
+Network cable unplugged.,network_issue,critical
+Install new keyboard.,service_request,medium
+Monitor is displaying distorted colors.,hardware_issue,medium
+Network cable unplugged.,network_issue,medium
+Monitor is displaying distorted colors.,hardware_issue,medium
+VPN not working.,network_issue,medium
+I need a new monitor.,service_request,medium
+Application freezing randomly.,software_bug,medium
+Two-factor authentication failing.,access_issue,medium
+Permissions not set correctly.,access_issue,high
+Printer is jammed.,hardware_issue,medium
+Set up email forwarding.,service_request,low
+Export function broken.,software_bug,medium
+Data not saving properly.,software_bug,high
+Can't connect to WiFi.,network_issue,high
+VPN not working.,network_issue,critical
+Error message: 'File not found'.,software_bug,low
+Touchpad not working on laptop.,hardware_issue,critical
+Login screen loops endlessly.,software_bug,high
+Network printer not accessible.,network_issue,high
+Network cable unplugged.,network_issue,critical
+Internet connection is very slow.,network_issue,medium
+Application freezing randomly.,software_bug,medium
+Email client not syncing.,software_bug,medium
+Graphics card overheating.,hardware_issue,medium
+Video player buffering issues.,software_bug,medium
+LAN port not functioning.,network_issue,high
+Error message: 'File not found'.,software_bug,high
+SSO login issues.,access_issue,high
+Email client not syncing.,software_bug,high
+Database connection error.,software_bug,medium
+Add printer to network.,service_request,medium
+Install new keyboard.,service_request,low
+Export function broken.,software_bug,medium
+I can't log into my account.,access_issue,critical
+Account locked out.,access_issue,medium
+Forgot password.,access_issue,medium
+Software update failed.,software_bug,medium
+Set up conference room projector.,service_request,medium
+Monitor is displaying distorted colors.,hardware_issue,medium
+Configure backup for my files.,service_request,low
+CD/DVD drive not reading discs.,hardware_issue,high
+Error message: 'File not found'.,software_bug,medium
+Database connection error.,software_bug,low
+Request for training on software.,service_request,low
+Export function broken.,software_bug,medium
+CD/DVD drive not reading discs.,hardware_issue,medium
+The application crashes when I open it.,software_bug,medium
+Report generation is incorrect.,software_bug,medium
+Two-factor authentication failing.,access_issue,low
+Software update failed.,software_bug,low
+IP address conflict.,network_issue,high
+Touchpad not working on laptop.,hardware_issue,medium
+Power supply fan is loud.,hardware_issue,high
+Group policy not applying.,access_issue,high
+LAN port not functioning.,network_issue,critical
+I can't log into my account.,access_issue,medium
+Software update failed.,software_bug,high
+Network printer not accessible.,network_issue,high
+Graphics card overheating.,hardware_issue,medium
+Network cable unplugged.,network_issue,high
+Hard drive making strange noises.,hardware_issue,high
+Report generation is incorrect.,software_bug,medium
+Set up email forwarding.,service_request,low
+I can't log into my account.,access_issue,medium
+Data not saving properly.,software_bug,medium
+Network printer not accessible.,network_issue,high
+Plugin not loading.,software_bug,medium
+Error message: 'File not found'.,software_bug,medium
+Application freezing randomly.,software_bug,low
+Set up new workstation.,service_request,medium
+Error message: 'File not found'.,software_bug,low
+Error message: 'File not found'.,software_bug,low
+Report generation is incorrect.,software_bug,low
+Hard drive making strange noises.,hardware_issue,critical
+Permissions not set correctly.,access_issue,medium
+Create new email account.,service_request,low
+Plugin not loading.,software_bug,medium
+SSO login issues.,access_issue,high
+Plugin not loading.,software_bug,low
+Database connection error.,software_bug,critical
+Data not saving properly.,software_bug,low
+Error message: 'File not found'.,software_bug,medium
+I can't log into my account.,access_issue,low
+Report generation is incorrect.,software_bug,medium
+Touchpad not working on laptop.,hardware_issue,medium
+Export function broken.,software_bug,low
+Router needs rebooting.,network_issue,medium
+Monitor is displaying distorted colors.,hardware_issue,low
+CD/DVD drive not reading discs.,hardware_issue,medium
+Export function broken.,software_bug,medium
+Report generation is incorrect.,software_bug,high
+Monitor is displaying distorted colors.,hardware_issue,medium
+UI elements not responding.,software_bug,medium
+Bluetooth device not pairing.,hardware_issue,critical
+Proxy settings incorrect.,network_issue,critical
+Printer is jammed.,hardware_issue,medium
+Data not saving properly.,software_bug,low
+Touchpad not working on laptop.,hardware_issue,high
+Shared drive permissions issue.,access_issue,medium
+Application freezing randomly.,software_bug,medium
+Firewall blocking legitimate traffic.,network_issue,high
+Laptop battery not charging.,hardware_issue,medium
+Search function not working.,software_bug,medium
+Power supply fan is loud.,hardware_issue,medium
+Graphics card overheating.,hardware_issue,high
+Please install antivirus software.,service_request,low
+Laptop battery not charging.,hardware_issue,critical
+Report generation is incorrect.,software_bug,medium
+LAN port not functioning.,network_issue,high
+USB ports not working.,hardware_issue,medium
+Video player buffering issues.,software_bug,medium
+Configure email signature.,service_request,medium
+Application freezing randomly.,software_bug,critical
+Incorrect calculations in spreadsheet.,software_bug,medium
+Login screen loops endlessly.,software_bug,medium
+Graphics card overheating.,hardware_issue,high
+Login screen loops endlessly.,software_bug,medium
+Application freezing randomly.,software_bug,critical
+Internet connection is very slow.,network_issue,medium
+Router needs rebooting.,network_issue,high
+Router needs rebooting.,network_issue,critical
+Export function broken.,software_bug,medium
+Incorrect calculations in spreadsheet.,software_bug,medium
+Data not saving properly.,software_bug,medium
+Incorrect calculations in spreadsheet.,software_bug,high
+Create new email account.,service_request,low
+Request for software license.,service_request,low
+Video player buffering issues.,software_bug,medium
+LAN port not functioning.,network_issue,high
+Install new keyboard.,service_request,low
+Set up conference room projector.,service_request,low
+Request for training on software.,service_request,medium
+USB ports not working.,hardware_issue,medium
+Application freezing randomly.,software_bug,medium
+External hard drive not detected.,hardware_issue,medium
+Email client not syncing.,software_bug,low
+The application crashes when I open it.,software_bug,medium
+The application crashes when I open it.,software_bug,medium
+Software update failed.,software_bug,low
+Permissions not set correctly.,access_issue,medium
+UI elements not responding.,software_bug,medium
+Incorrect calculations in spreadsheet.,software_bug,medium
+Hard drive making strange noises.,hardware_issue,medium
+Touchpad not working on laptop.,hardware_issue,medium
+Data not saving properly.,software_bug,medium
+Touchpad not working on laptop.,hardware_issue,medium
+Email client not syncing.,software_bug,medium
+External hard drive not detected.,hardware_issue,critical
+SSO login issues.,access_issue,medium
+Install operating system update.,service_request,low
+Set up conference room projector.,service_request,low
+Monitor is displaying distorted colors.,hardware_issue,high
+Bluetooth device not pairing.,hardware_issue,high
+External hard drive not detected.,hardware_issue,medium
+Mouse cursor is frozen.,hardware_issue,high
+Set up conference room projector.,service_request,low
+Incorrect calculations in spreadsheet.,software_bug,low
+Speakers have no sound.,hardware_issue,medium
+USB ports not working.,hardware_issue,medium
+Firewall blocking legitimate traffic.,network_issue,critical
+Database connection error.,software_bug,medium
+Video player buffering issues.,software_bug,medium
+UI elements not responding.,software_bug,medium
+Search function not working.,software_bug,low
+VPN not working.,network_issue,high
+Software update failed.,software_bug,low
+Touchpad not working on laptop.,hardware_issue,low
+Internet connection is very slow.,network_issue,critical
+Can't connect to WiFi.,network_issue,critical
+Access denied to shared folder.,access_issue,high
+Bluetooth device not pairing.,hardware_issue,critical
+Video player buffering issues.,software_bug,medium
+Email client not syncing.,software_bug,medium
+I can't log into my account.,access_issue,medium
+Laptop battery not charging.,hardware_issue,high
+Graphics card overheating.,hardware_issue,high
+My computer won't start up.,hardware_issue,high
+Report generation is incorrect.,software_bug,medium
+Graphics card overheating.,hardware_issue,critical
+Login screen loops endlessly.,software_bug,low
+Software update failed.,software_bug,medium
+VPN access blocked.,access_issue,medium
+Email client not syncing.,software_bug,low
+Forgot password.,access_issue,medium
+Login screen loops endlessly.,software_bug,low
+Internet connection is very slow.,network_issue,critical
+Incorrect calculations in spreadsheet.,software_bug,medium
+Network cable unplugged.,network_issue,critical
+Laptop battery not charging.,hardware_issue,high
+Email server is down.,network_issue,high
+Printer is jammed.,hardware_issue,high
+UI elements not responding.,software_bug,medium
+The application crashes when I open it.,software_bug,critical
+Two-factor authentication failing.,access_issue,high
+UI elements not responding.,software_bug,medium
+Bluetooth device not pairing.,hardware_issue,high
+Access denied to shared folder.,access_issue,high
+Login screen loops endlessly.,software_bug,critical
+The application crashes when I open it.,software_bug,medium
+Search function not working.,software_bug,medium
+Export function broken.,software_bug,medium
+USB ports not working.,hardware_issue,medium
+Incorrect calculations in spreadsheet.,software_bug,low
+Export function broken.,software_bug,low
+Proxy settings incorrect.,network_issue,high
+Add printer to network.,service_request,low
+USB ports not working.,hardware_issue,high
+Login screen loops endlessly.,software_bug,medium
+DNS resolution failing.,network_issue,high
+Request for training on software.,service_request,low
+Firewall blocking legitimate traffic.,network_issue,medium
+Export function broken.,software_bug,low
+File server is unreachable.,network_issue,high
+Report generation is incorrect.,software_bug,low
+Search function not working.,software_bug,medium
+Plugin not loading.,software_bug,medium
+VPN access blocked.,access_issue,medium
+Database connection error.,software_bug,low
+Video player buffering issues.,software_bug,medium
+Permissions not set correctly.,access_issue,medium
+Graphics card overheating.,hardware_issue,low
+Video conferencing keeps dropping.,network_issue,critical
+Search function not working.,software_bug,medium
+Export function broken.,software_bug,medium
+Set up new workstation.,service_request,medium
+Login screen loops endlessly.,software_bug,high
+I need a new monitor.,service_request,low
+Error message: 'File not found'.,software_bug,low
+Plugin not loading.,software_bug,medium
+Network cable unplugged.,network_issue,medium
+Install new keyboard.,service_request,low
+Request for software license.,service_request,medium
+Can't connect to WiFi.,network_issue,critical
+Search function not working.,software_bug,low
+Add user to distribution list.,service_request,low
+Plugin not loading.,software_bug,low
+Network printer not accessible.,network_issue,high
+My computer won't start up.,hardware_issue,medium
+Software update failed.,software_bug,low
+Incorrect calculations in spreadsheet.,software_bug,medium
+Login screen loops endlessly.,software_bug,medium
+My computer won't start up.,hardware_issue,critical
+Biometric login not recognizing.,access_issue,medium
+Add printer to network.,service_request,low
+VPN access blocked.,access_issue,medium
+Group policy not applying.,access_issue,low
+Login screen loops endlessly.,software_bug,medium
+Report generation is incorrect.,software_bug,medium
+CD/DVD drive not reading discs.,hardware_issue,medium
+Video player buffering issues.,software_bug,medium
+Bluetooth device not pairing.,hardware_issue,medium
+I need a new monitor.,service_request,low
+Graphics card overheating.,hardware_issue,high
+Export function broken.,software_bug,low
+Search function not working.,software_bug,medium
+Incorrect calculations in spreadsheet.,software_bug,medium
+Remote desktop connection refused.,access_issue,critical
+Application freezing randomly.,software_bug,medium
+Can't connect to WiFi.,network_issue,critical
+The application crashes when I open it.,software_bug,medium
+Add user to distribution list.,service_request,low
+Export function broken.,software_bug,low
+User profile corrupted.,access_issue,low
+Install new keyboard.,service_request,low
+Login screen loops endlessly.,software_bug,medium
+Monitor is displaying distorted colors.,hardware_issue,high
+Video player buffering issues.,software_bug,low
+Software update failed.,software_bug,medium
+VPN access blocked.,access_issue,low
+Error message: 'File not found'.,software_bug,critical
+UI elements not responding.,software_bug,low
+Error message: 'File not found'.,software_bug,high
+Database connection error.,software_bug,low
+Search function not working.,software_bug,low
+Video conferencing keeps dropping.,network_issue,critical
+Bluetooth device not pairing.,hardware_issue,high
+Email server is down.,network_issue,medium
+Database connection error.,software_bug,medium
+Email client not syncing.,software_bug,low
+Touchpad not working on laptop.,hardware_issue,high
+Network printer not accessible.,network_issue,critical
+Account locked out.,access_issue,low
+Search function not working.,software_bug,medium
+Video player buffering issues.,software_bug,low
+Password reset not working.,access_issue,low
+Incorrect calculations in spreadsheet.,software_bug,medium
+My computer won't start up.,hardware_issue,high
+USB ports not working.,hardware_issue,medium
+USB ports not working.,hardware_issue,high
+Login screen loops endlessly.,software_bug,high
+Application freezing randomly.,software_bug,low
+VPN access blocked.,access_issue,low
+External hard drive not detected.,hardware_issue,high
+Login screen loops endlessly.,software_bug,low
+Remote desktop connection refused.,access_issue,high
+Report generation is incorrect.,software_bug,medium
+Plugin not loading.,software_bug,medium
+Proxy settings incorrect.,network_issue,high
+My computer won't start up.,hardware_issue,medium
+Software update failed.,software_bug,low
+LAN port not functioning.,network_issue,medium
+Video conferencing keeps dropping.,network_issue,high
+Monitor is displaying distorted colors.,hardware_issue,medium
+Account locked out.,access_issue,high
+Search function not working.,software_bug,medium
+The application crashes when I open it.,software_bug,medium
+Firewall blocking legitimate traffic.,network_issue,high
+Login screen loops endlessly.,software_bug,medium
+Video conferencing keeps dropping.,network_issue,high
+Login screen loops endlessly.,software_bug,low
+Email client not syncing.,software_bug,medium
+Install operating system update.,service_request,medium
+Software update failed.,software_bug,medium
+My computer won't start up.,hardware_issue,medium
+Incorrect calculations in spreadsheet.,software_bug,high
+The application crashes when I open it.,software_bug,medium
+Laptop battery not charging.,hardware_issue,high
+Database connection error.,software_bug,low
+Monitor is displaying distorted colors.,hardware_issue,high
+I can't log into my account.,access_issue,medium
+External hard drive not detected.,hardware_issue,medium
+Permissions not set correctly.,access_issue,medium
+DNS resolution failing.,network_issue,high
+The keyboard keys are sticking.,hardware_issue,medium
+Two-factor authentication failing.,access_issue,low
+Laptop battery not charging.,hardware_issue,medium
+Software update failed.,software_bug,low
+My computer won't start up.,hardware_issue,high
+Power supply fan is loud.,hardware_issue,medium
+Login screen loops endlessly.,software_bug,medium
+Graphics card overheating.,hardware_issue,low
+Network cable unplugged.,network_issue,high
+Search function not working.,software_bug,low
+Request for training on software.,service_request,low
+Application freezing randomly.,software_bug,medium
+Database connection error.,software_bug,high
+Graphics card overheating.,hardware_issue,medium
+Error message: 'File not found'.,software_bug,medium
+LAN port not functioning.,network_issue,medium
+Application freezing randomly.,software_bug,medium
+Shared drive permissions issue.,access_issue,high
+Graphics card overheating.,hardware_issue,medium
+Access denied to shared folder.,access_issue,low
+Video conferencing keeps dropping.,network_issue,high
+I can't log into my account.,access_issue,critical
+The application crashes when I open it.,software_bug,low
+Please install antivirus software.,service_request,low
+Two-factor authentication failing.,access_issue,low
+Access to application denied.,access_issue,medium
+Application freezing randomly.,software_bug,medium
+Access to application denied.,access_issue,critical
+Mouse cursor is frozen.,hardware_issue,medium
+The keyboard keys are sticking.,hardware_issue,low
+Group policy not applying.,access_issue,medium
+DNS resolution failing.,network_issue,high
+Video player buffering issues.,software_bug,medium
+Incorrect calculations in spreadsheet.,software_bug,high
+Plugin not loading.,software_bug,medium
+Touchpad not working on laptop.,hardware_issue,medium
+Plugin not loading.,software_bug,critical
+Email client not syncing.,software_bug,medium
+Login screen loops endlessly.,software_bug,low
+CD/DVD drive not reading discs.,hardware_issue,medium
+Power supply fan is loud.,hardware_issue,critical
+Install operating system update.,service_request,low
+Error message: 'File not found'.,software_bug,medium
+Export function broken.,software_bug,medium
+Email client not syncing.,software_bug,critical
+USB ports not working.,hardware_issue,high
+Hard drive making strange noises.,hardware_issue,medium
+Report generation is incorrect.,software_bug,medium
+The application crashes when I open it.,software_bug,low
+IP address conflict.,network_issue,high
+Search function not working.,software_bug,low
+Printer is jammed.,hardware_issue,low
+Mouse cursor is frozen.,hardware_issue,low
+Software update failed.,software_bug,medium
+External hard drive not detected.,hardware_issue,high
+External hard drive not detected.,hardware_issue,medium
+UI elements not responding.,software_bug,low
+Email server is down.,network_issue,medium
+Database connection error.,software_bug,critical
+Database connection error.,software_bug,medium
+Wireless signal weak.,network_issue,critical
+Mouse cursor is frozen.,hardware_issue,medium
+Printer is jammed.,hardware_issue,high
+Application freezing randomly.,software_bug,medium
+Search function not working.,software_bug,medium
+Search function not working.,software_bug,low
+External hard drive not detected.,hardware_issue,high
+Set up new workstation.,service_request,critical
+Firewall blocking legitimate traffic.,network_issue,critical
+Can't connect to WiFi.,network_issue,critical
+I can't log into my account.,access_issue,medium
+Laptop battery not charging.,hardware_issue,low
+Biometric login not recognizing.,access_issue,low
+Firewall blocking legitimate traffic.,network_issue,low
+Incorrect calculations in spreadsheet.,software_bug,high
+Request for software license.,service_request,medium
+Monitor is displaying distorted colors.,hardware_issue,high
+I can't log into my account.,access_issue,medium
+UI elements not responding.,software_bug,medium
+Network printer not accessible.,network_issue,critical
+IP address conflict.,network_issue,medium
+Bluetooth device not pairing.,hardware_issue,high
+Graphics card overheating.,hardware_issue,medium
+Database connection error.,software_bug,low
+Biometric login not recognizing.,access_issue,high
+Graphics card overheating.,hardware_issue,medium
+VPN access blocked.,access_issue,low
+Group policy not applying.,access_issue,low
+Firewall blocking legitimate traffic.,network_issue,medium
+Touchpad not working on laptop.,hardware_issue,medium
+Incorrect calculations in spreadsheet.,software_bug,high
+Internet connection is very slow.,network_issue,high
+Permissions not set correctly.,access_issue,critical
+Video player buffering issues.,software_bug,medium
+Data not saving properly.,software_bug,low
+Proxy settings incorrect.,network_issue,high
+Router needs rebooting.,network_issue,high
+Can't connect to WiFi.,network_issue,medium
+Access to application denied.,access_issue,high
+Email client not syncing.,software_bug,medium
+Data not saving properly.,software_bug,medium
+Monitor is displaying distorted colors.,hardware_issue,high
+Router needs rebooting.,network_issue,medium
+Database connection error.,software_bug,medium
+Configure backup for my files.,service_request,low
+Incorrect calculations in spreadsheet.,software_bug,low
+Monitor is displaying distorted colors.,hardware_issue,low
+Export function broken.,software_bug,medium
+Report generation is incorrect.,software_bug,medium
+Application freezing randomly.,software_bug,medium
+I can't log into my account.,access_issue,low
+Shared drive permissions issue.,access_issue,medium
+Set up new workstation.,service_request,low
+Search function not working.,software_bug,medium
+Shared drive permissions issue.,access_issue,medium
+Speakers have no sound.,hardware_issue,high
+Export function broken.,software_bug,high
+Permissions not set correctly.,access_issue,low
+Proxy settings incorrect.,network_issue,high
+Network cable unplugged.,network_issue,high
+Hard drive making strange noises.,hardware_issue,medium
+Export function broken.,software_bug,low
+Hard drive making strange noises.,hardware_issue,medium
+Data not saving properly.,software_bug,low
+Proxy settings incorrect.,network_issue,high
+The application crashes when I open it.,software_bug,medium
+Create new email account.,service_request,low
+Error message: 'File not found'.,software_bug,medium
+LAN port not functioning.,network_issue,high
+Create new email account.,service_request,medium
+External hard drive not detected.,hardware_issue,high
+Email client not syncing.,software_bug,medium
+Login screen loops endlessly.,software_bug,medium
+Video player buffering issues.,software_bug,medium
+Proxy settings incorrect.,network_issue,critical
+Router needs rebooting.,network_issue,critical
+Video player buffering issues.,software_bug,high
+The application crashes when I open it.,software_bug,high
+Video player buffering issues.,software_bug,medium
+UI elements not responding.,software_bug,low
+User profile corrupted.,access_issue,high
+Login screen loops endlessly.,software_bug,medium
+External hard drive not detected.,hardware_issue,medium
+Software update failed.,software_bug,low
+Access to application denied.,access_issue,medium
+Access denied to shared folder.,access_issue,low
+VPN not working.,network_issue,high
+Incorrect calculations in spreadsheet.,software_bug,medium
+Email client not syncing.,software_bug,medium
+Data not saving properly.,software_bug,medium
+Hard drive making strange noises.,hardware_issue,low
+Email client not syncing.,software_bug,medium
+Incorrect calculations in spreadsheet.,software_bug,medium
+Application freezing randomly.,software_bug,medium
+Report generation is incorrect.,software_bug,critical
+Add printer to network.,service_request,low
+CD/DVD drive not reading discs.,hardware_issue,high
+Create new email account.,service_request,low
+Application freezing randomly.,software_bug,medium
+Login screen loops endlessly.,software_bug,critical
+Monitor is displaying distorted colors.,hardware_issue,high
+Graphics card overheating.,hardware_issue,medium
+Set up conference room projector.,service_request,low
+Monitor is displaying distorted colors.,hardware_issue,low
+Database connection error.,software_bug,medium
+Proxy settings incorrect.,network_issue,high
+Request for training on software.,service_request,low
+Database connection error.,software_bug,high
+Access to application denied.,access_issue,medium
+Software update failed.,software_bug,medium
+Video player buffering issues.,software_bug,critical
+Access to application denied.,access_issue,high
+USB ports not working.,hardware_issue,medium
+Error message: 'File not found'.,software_bug,low
+DNS resolution failing.,network_issue,medium

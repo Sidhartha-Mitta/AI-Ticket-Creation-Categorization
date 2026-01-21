@@ -1,6 +1,6 @@
 # AI Ticket Project
 
-A comprehensive role-based ticket management system built with a modern tech stack, featuring AI-powered ticket categorization, user authentication, ticket creation, status tracking, and administrative controls.
+A comprehensive role-based ticket management system built with a modern tech stack, featuring AI-powered ticket categorization, user authentication, ticket creation, status tracking, and administrative controls. Includes a machine learning component for automatic ticket classification and prioritization.
 
 ## Features
 
@@ -34,6 +34,14 @@ The system incorporates machine learning models to automatically categorize tick
 - **React Toastify** for notifications
 - **Heroicons** and **Lucide React** for icons
 - **jsPDF** for PDF generation
+
+### AI/ML Component
+- **Python** with **FastAPI** framework
+- **scikit-learn**: Machine learning library
+- **pandas**: Data manipulation
+- **numpy**: Numerical computing
+- **TF-IDF Vectorization**: Text feature extraction
+- **SVM & Logistic Regression**: Classification models
 
 ## Project Structure
 
@@ -69,6 +77,21 @@ AI_TICKET_PROJECT/
 │   ├── package.json
 │   ├── vite.config.js
 │   └── ...
+├── MLModel/
+│   ├── data/
+│   │   ├── raw/           # Raw dataset files
+│   │   └── processed/     # Cleaned and processed data
+│   ├── models/            # Trained ML models and encoders
+│   ├── src/
+│   │   ├── main.py        # FastAPI application
+│   │   ├── predict.py     # Prediction logic
+│   │   ├── train.py       # Model training script
+│   │   ├── preprocessing.py # Data preprocessing utilities
+│   │   └── evaluate.py    # Model evaluation
+│   ├── requirements.txt   # Python dependencies
+│   ├── Procfile          # Deployment configuration for Render
+│   ├── runtime.txt       # Python version specification
+│   └── README.md         # ML Model documentation
 └── README.md
 ```
 
@@ -76,6 +99,7 @@ AI_TICKET_PROJECT/
 
 ### Prerequisites
 - Node.js (v16 or higher)
+- Python (3.8 or higher)
 - MongoDB (local or cloud instance)
 - npm or yarn
 
@@ -126,6 +150,36 @@ AI_TICKET_PROJECT/
    npm run dev
    ```
 
+### MLModel Setup
+
+1. Navigate to the MLModel directory:
+   ```bash
+   cd MLModel
+   ```
+
+2. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Train the models (if not already trained):
+   ```bash
+   python src/train.py
+   ```
+
+5. Start the FastAPI server:
+   ```bash
+   uvicorn src.main:app --reload
+   ```
+
+   The ML API will be available at `http://127.0.0.1:8000`
+
 ## Usage
 
 1. **Access the Application**:
@@ -174,6 +228,42 @@ AI_TICKET_PROJECT/
 - `GET /support/tickets` - Get tickets assigned to support
 - `PUT /support/tickets/:id` - Update ticket status
 
+### ML Model API
+
+The MLModel provides a separate FastAPI service for ticket classification:
+
+- `POST /generate-ticket` - Generate ticket classification
+
+**Request Body**:
+```json
+{
+  "title": "Printer not working",
+  "description": "The office printer on floor 3 is not responding to print commands. Error message shows 'connection timeout'."
+}
+```
+
+**Response**:
+```json
+{
+  "ticket_id": "TCKT-A1B2C3",
+  "title": "Printer not working",
+  "description": "The office printer on floor 3 is not responding to print commands. Error message shows 'connection timeout'.",
+  "category": "Hardware",
+  "priority": "High",
+  "confidence_level": 0.87,
+  "category_distribution": {
+    "Hardware": 0.87,
+    "Access": 0.08,
+    "HR support": 0.05
+  }
+}
+```
+
+**Validation Rules**:
+- Description must be between 15-1000 characters
+- Minimum confidence threshold: 40%
+- Clear, descriptive text improves accuracy
+
 ## Development
 
 ### Running Tests
@@ -198,6 +288,36 @@ cd backend
 npm start
 ```
 
+### ML Model Training
+
+To retrain models with new data:
+
+1. Place your dataset in `MLModel/data/raw/` as CSV with columns: `text`, `category`, `priority`
+2. Update the `DATA_PATH` in `MLModel/src/train.py` if needed
+3. Run `python MLModel/src/train.py`
+
+### ML Model Deployment on Render
+
+1. Push your code to GitHub/GitLab:
+   ```bash
+   git add .
+   git commit -m "Ready for deployment"
+   git push origin main
+   ```
+
+2. Create a new Web Service on Render:
+   - Connect your repository
+   - Set build command: `pip install -r requirements.txt`
+   - Set start command: `uvicorn src.main:app --host 0.0.0.0 --port $PORT`
+   - Or use the provided `Procfile`
+
+3. Environment Variables (if needed):
+   - No environment variables required for basic functionality
+
+4. Deploy:
+   - Render will automatically build and deploy your application
+   - Your ML API will be available at the provided Render URL
+
 ## Contributing
 
 1. Fork the repository
@@ -214,7 +334,7 @@ This project is licensed under the ISC License - see the LICENSE file for detail
 
 ```mermaid
 graph TB
-    A[Frontend - React] --> B[API Routes]
+    A[Frontend - React] --> B[Backend API - Node.js/Express]
     B --> C[Authentication Middleware]
     B --> D[Ticket Routes]
     B --> E[Admin Routes]
@@ -223,7 +343,7 @@ graph TB
     D --> H[Ticket Controller]
     E --> I[Admin Controller]
     F --> J[Support Controller]
-    H --> M[ML Model]
+    H --> M[ML Model API - Python/FastAPI]
     M --> N[Categorization & Priority]
     N --> K[MongoDB - Tickets]
     I --> L[MongoDB - Users]

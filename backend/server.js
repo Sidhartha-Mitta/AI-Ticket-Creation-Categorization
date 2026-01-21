@@ -10,10 +10,10 @@ import adminRoutes from './routes/admin.js';
 
 const app = express();
 
-/* -------------------- DATABASE -------------------- */
+// DATABASE 
 connectDB();
 
-/* -------------------- MIDDLEWARE -------------------- */
+// MIDDLEWARE 
 
 // CORS configuration
 const corsOptions = {
@@ -37,14 +37,14 @@ app.options('*', cors(corsOptions));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-/* -------------------- ROUTES -------------------- */
+// ROUTES 
 
 app.use('/api/auth', authRoutes);
 app.use('/api/tickets', ticketRoutes);
 app.use('/api/support', supportRoutes);
 app.use('/api/admin', adminRoutes);
 
-/* -------------------- LEGACY / TEST ROUTE -------------------- */
+// LEGACY / TEST ROUTE 
 app.post('/api/generate_ticket', (req, res) => {
   res.json({
     ticket_id: `TICK-${Date.now()}`,
@@ -55,17 +55,17 @@ app.post('/api/generate_ticket', (req, res) => {
   });
 });
 
-/* -------------------- HEALTH CHECK -------------------- */
+// HEALTH CHECK 
 app.get('/', (req, res) => {
   res.send('✅ API is running...');
 });
 
-/* -------------------- 404 HANDLER -------------------- */
+// 404 HANDLER 
 app.use((req, res) => {
   res.status(404).json({ error: 'Route not found' });
 });
 
-/* -------------------- SERVER -------------------- */
+// SERVER 
 const PORT = process.env.PORT || 8000;
 
 app.listen(PORT, () => {
