@@ -1,6 +1,6 @@
-const mongoose = require('mongoose');
-const Ticket = require('./models/Ticket');
-require('dotenv').config();
+import mongoose from 'mongoose';
+import Ticket from './models/Ticket.js';
+import 'dotenv/config';
 
 const updateStatuses = async () => {
   try {

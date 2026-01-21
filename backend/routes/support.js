@@ -1,7 +1,7 @@
-const express = require('express');
-const { body, validationResult } = require('express-validator');
-const Ticket = require('../models/Ticket');
-const { auth, requireSupport } = require('../middleware/auth');
+import express from 'express';
+import { body, validationResult } from 'express-validator';
+import Ticket from '../models/Ticket.js';
+import { auth, requireSupport } from '../middleware/auth.js';
 
 const router = express.Router();
 
@@ -65,4 +65,4 @@ router.put('/tickets/:ticketId', auth, requireSupport, [
   }
 });
 
-module.exports = router;
+export default router;

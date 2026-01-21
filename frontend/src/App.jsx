@@ -29,6 +29,7 @@ function App() {
       await createTicket({ title, description })
       setTitle('')
       setDescription('')
+      setDashboardView('my-tickets') // Redirect to tickets page
       toast.success('Ticket created successfully!')
     } catch (err) {
       console.error('Error:', err)

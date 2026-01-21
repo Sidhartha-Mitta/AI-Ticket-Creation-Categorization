@@ -17,7 +17,7 @@ const useTicketsStore = create(
 
         set({ loading: true, error: null });
         try {
-          const response = await fetch(`${API_BASE_URL}/tickets/`, {
+          const response = await fetch(`${API_BASE_URL}/api/tickets/`, {
             headers: {
               'Authorization': `Bearer ${token}`,
             },
@@ -42,7 +42,7 @@ const useTicketsStore = create(
 
         set({ loading: true, error: null });
         try {
-          const response = await fetch(`${API_BASE_URL}/admin/tickets`, {
+          const response = await fetch(`${API_BASE_URL}/api/admin/tickets`, {
             headers: {
               'Authorization': `Bearer ${token}`,
             },
@@ -67,7 +67,7 @@ const useTicketsStore = create(
 
         set({ loading: true, error: null });
         try {
-          const response = await fetch(`${API_BASE_URL}/support/tickets`, {
+          const response = await fetch(`${API_BASE_URL}/api/support/tickets`, {
             headers: {
               'Authorization': `Bearer ${token}`,
             },
@@ -92,7 +92,7 @@ const useTicketsStore = create(
 
         set({ loading: true, error: null });
         try {
-          const response = await fetch(`${API_BASE_URL}/tickets/`, {
+          const response = await fetch(`${API_BASE_URL}/api/tickets/`, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -123,7 +123,7 @@ const useTicketsStore = create(
 
         set({ loading: true, error: null });
         try {
-          const response = await fetch(`${API_BASE_URL}/tickets/${ticketId}/cancel`, {
+          const response = await fetch(`${API_BASE_URL}/api/tickets/${ticketId}/cancel`, {
             method: 'PUT',
             headers: {
               'Authorization': `Bearer ${token}`,

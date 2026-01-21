@@ -1,5 +1,5 @@
-const jwt = require('jsonwebtoken');
-const User = require('../models/User');
+import jwt from 'jsonwebtoken';
+import User from '../models/User.js';
 
 const auth = async (req, res, next) => {
   try {
@@ -38,4 +38,4 @@ const requireRole = (role) => {
 const requireSupport = requireRole('support');
 const requireAdmin = requireRole('admin');
 
-module.exports = { auth, requireRole, requireSupport, requireAdmin };
+export { auth, requireRole, requireSupport, requireAdmin };

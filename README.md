@@ -115,10 +115,11 @@ AI_TICKET_PROJECT/
    npm install
    ```
 
-3. Create a `.env` file in the frontend directory (if needed for API endpoints):
+3. Create a `.env` file in the frontend directory with the backend URL:
    ```
-   VITE_API_BASE_URL=http://localhost:8000
+   VITE_API_BASE_URL=https://ai-ticket-creation-backend.onrender.com
    ```
+   For local development, you can use `VITE_API_BASE_URL=http://localhost:8000`
 
 4. Start the development server:
    ```bash
@@ -127,7 +128,9 @@ AI_TICKET_PROJECT/
 
 ## Usage
 
-1. **Access the Application**: Open your browser and navigate to `http://localhost:5173` (default Vite port)
+1. **Access the Application**:
+   - **Local Development**: Open your browser and navigate to `http://localhost:5173` (default Vite port)
+   - **Deployed Version**: Visit `https://ai-ticket-creation.onrender.com`
 
 2. **User Registration/Login**:
    - Register a new account or login with existing credentials

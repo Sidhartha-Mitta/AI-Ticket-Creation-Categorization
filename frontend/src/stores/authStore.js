@@ -15,7 +15,7 @@ const useAuthStore = create(
       login: async (credentials) => {
         set({ error: null });
         try {
-          const response = await fetch(`${API_BASE_URL}/auth/login`, {
+          const response = await fetch(`${API_BASE_URL}/api/auth/login`, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -32,7 +32,7 @@ const useAuthStore = create(
 
           // Immediately fetch user profile after login
           console.log('Fetching user profile after login...');
-          const profileResponse = await fetch(`${API_BASE_URL}/auth/profile`, {
+          const profileResponse = await fetch(`${API_BASE_URL}/api/auth/profile`, {
             headers: {
               'Authorization': `Bearer ${data.access_token}`,
             },
@@ -64,7 +64,7 @@ const useAuthStore = create(
       signup: async (userData) => {
         set({ error: null });
         try {
-          const response = await fetch(`${API_BASE_URL}/auth/signup`, {
+          const response = await fetch(`${API_BASE_URL}/api/auth/signup`, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -80,7 +80,7 @@ const useAuthStore = create(
           const data = await response.json();
 
           // Immediately fetch user profile after signup
-          const profileResponse = await fetch(`${API_BASE_URL}/auth/profile`, {
+          const profileResponse = await fetch(`${API_BASE_URL}/api/auth/profile`, {
             headers: {
               'Authorization': `Bearer ${data.access_token}`,
             },
@@ -119,7 +119,7 @@ const useAuthStore = create(
         if (!token) return;
 
         try {
-          const response = await fetch(`${API_BASE_URL}/auth/profile`, {
+          const response = await fetch(`${API_BASE_URL}/api/auth/profile`, {
             headers: {
               'Authorization': `Bearer ${token}`,
             },

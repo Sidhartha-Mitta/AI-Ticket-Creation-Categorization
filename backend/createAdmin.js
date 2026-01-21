@@ -1,6 +1,6 @@
-require('dotenv').config();
-const connectDB = require('./config/database');
-const User = require('./models/User');
+import 'dotenv/config';
+import connectDB from './config/database.js';
+import User from './models/User.js';
 
 async function createAdmin() {
   try {

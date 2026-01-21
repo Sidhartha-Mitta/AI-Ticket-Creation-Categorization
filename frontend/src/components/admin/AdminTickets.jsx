@@ -3,6 +3,8 @@ import { Check, Clock, AlertCircle, X, Search, Filter, RefreshCw, ArrowUpDown } 
 import { toast } from 'react-toastify';
 import useAuthStore from '../../stores/authStore';
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+
 const statuses = [
   { id: 'open', name: 'Open', icon: <AlertCircle className="h-4 w-4" />, color: 'bg-yellow-100 text-yellow-800' },
   { id: 'in_progress', name: 'In Progress', icon: <Clock className="h-4 w-4" />, color: 'bg-blue-100 text-blue-800' },
@@ -45,7 +47,7 @@ const AdminTickets = () => {
       if (filters.search) queryParams.append('search', filters.search);
       if (filters.sort) queryParams.append('sort', filters.sort);
 
-      const response = await fetch(`/api/admin/tickets?${queryParams.toString()}`, {
+      const response = await fetch(`${API_BASE_URL}/api/admin/tickets?${queryParams.toString()}`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
 
@@ -74,7 +76,7 @@ const AdminTickets = () => {
 
     try {
       setIsUpdating(true);
-      const response = await fetch(`/api/admin/tickets/${selectedTicket.ticket_id}/status`, {
+      const response = await fetch(`${API_BASE_URL}/api/admin/tickets/${selectedTicket.ticket_id}/status`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

@@ -1,12 +1,11 @@
-const express = require('express');
-const { body, validationResult } = require('express-validator');
-const bcrypt = require('bcryptjs');
-const User = require('../models/User');
-const Ticket = require('../models/Ticket');
-const { auth, requireAdmin } = require('../middleware/auth');
+import express from 'express';
+import { body, validationResult } from 'express-validator';
+import bcrypt from 'bcryptjs';
+import User from '../models/User.js';
+import Ticket from '../models/Ticket.js';
+import { auth, requireAdmin } from '../middleware/auth.js';
 
 const router = express.Router();
-
 
 // Helper function to format user data
 const formatUserData = (user) => ({
@@ -54,13 +53,10 @@ router.post('/users', [
     }
 
     // Create new user
-    const salt = await bcrypt.genSalt(10);
-    const hashedPassword = await bcrypt.hash(password, salt);
-
     user = new User({
       username,
       email,
-      password: hashedPassword,
+      password,
       role,
       ...(role === 'support' && { supportCategory })
     });
@@ -368,4 +364,4 @@ router.post('/users', auth, requireAdmin, [
   }
 });
 
-module.exports = router;
+export default router;

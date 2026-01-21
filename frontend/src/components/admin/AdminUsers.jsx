@@ -3,6 +3,8 @@ import { Plus, Edit, Trash2, User, Shield, UserCheck, UserX } from 'lucide-react
 import { toast } from 'react-toastify';
 import useAuthStore from '../../stores/authStore';
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+
 const AdminUsers = () => {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -21,7 +23,7 @@ const AdminUsers = () => {
   const fetchUsers = async () => {
     try {
       setLoading(true);
-      const response = await fetch('/api/admin/users', {
+      const response = await fetch(`${API_BASE_URL}/api/admin/users`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await response.json();
@@ -51,9 +53,9 @@ const AdminUsers = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const url = editingUser 
-      ? `/api/admin/users/${editingUser.id}`
-      : '/api/admin/users';
+    const url = editingUser
+      ? `${API_BASE_URL}/api/admin/users/${editingUser.id}`
+      : `${API_BASE_URL}/api/admin/users`;
     const method = editingUser ? 'PUT' : 'POST';
 
     try {
@@ -104,7 +106,7 @@ const AdminUsers = () => {
     if (!window.confirm('Are you sure you want to delete this user?')) return;
     
     try {
-      const response = await fetch(`/api/admin/users/${userId}`, {
+      const response = await fetch(`${API_BASE_URL}/api/admin/users/${userId}`, {
         method: 'DELETE',
         headers: {
           'Authorization': `Bearer ${token}`
