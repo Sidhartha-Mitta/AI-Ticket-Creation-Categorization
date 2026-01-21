@@ -16,7 +16,8 @@ connectDB();
 const corsOptions = {
   origin: [
     'http://localhost:5173', // Local development
-    'https://ai-ticket-creation.onrender.com' // Deployed frontend
+    'https://ai-ticket-creation.onrender.com' ,
+    'https://ai-ticket-creation-categorization.vercel.app/' // Deployed frontend
   ],
   credentials: true
 };
