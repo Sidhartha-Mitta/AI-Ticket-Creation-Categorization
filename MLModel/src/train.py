@@ -6,7 +6,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 
-from preprocessing import load_and_preprocess
+from .preprocessing import load_and_preprocess
 
 # ---------- PATHS ----------
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
